@@ -35,7 +35,7 @@ REPOS = (
         '--require-serial',
     ),
     ('mirrors-puppet-lint', *lang_pkg('ruby', 'puppet-lint'), PP),
-    ('mirrors-pylint', *lang_pkg('python', 'pylint'), PY),
+    ('mirrors-pylint', *lang_pkg('python', 'pylint'), PY, '--score=n'),
     ('mirrors-ruby-lint', *lang_pkg('ruby', 'ruby-lint'), RB),
     (
         'mirrors-scss-lint',
